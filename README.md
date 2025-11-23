@@ -17,7 +17,7 @@ A lightweight, modular Retrieval-Augmented Generation (RAG) pipeline built to en
 ---
 
 ## 🧱 Project Structure
-
+```bash
 RAG/
 │── data/ # Raw documents
 │── embeddings/ # Generated embeddings (optional)
@@ -32,7 +32,7 @@ RAG/
 │── app.py # Optional API or CLI entrypoint
 │── requirements.txt
 │── README.md
-
+```
 
 ---
 

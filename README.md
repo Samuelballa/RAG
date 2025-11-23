@@ -56,16 +56,16 @@ Place your files inside the `data/` directory.
 python src/embedder.py
 
 ```
-###3. Run the RAG pipeline
+### 3. Run the RAG pipeline
 ```bash
 python src/pipeline.py --query "Your question here"
 ```
-###4. Optional: Start API
+### 4. Optional: Start API
 ```bash
 python app.py
 ```
 
-##🧠 How It Works
+## 🧠 How It Works
 
 
 Ingestion – Reads documents and extracts clean text
@@ -85,7 +85,7 @@ Generation – Feeds retrieved context to an LLM and generates the answer
 
 This process ensures answers are grounded in your dataset instead of hallucinating.
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 
 Python 3.10+
@@ -104,11 +104,11 @@ FastAPI (optional for deployment)
 
 
 
-##🧪 Example Query
+## 🧪 Example Query
 python src/pipeline.py --query "Summarize the policies described in the documents."
 
 
-##📦 Future Improvements
+##  📦 Future Improvements
 
 
 Web UI dashboard
@@ -124,7 +124,7 @@ LLM fine-tuning for domain-specific answers
 
 
 
-##🤝 Contributing
+##  🤝 Contributing
 Contributions, issues, and feature requests are welcome.
 Feel free to open a pull request!
 
